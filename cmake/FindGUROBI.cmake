@@ -106,7 +106,7 @@ else ()
     if (UNIX)
         # ----- Find the GUROBI library ------------------------------------- #
         find_library(GUROBI_LIBRARY
-                     NAMES gurobi gurobi100
+                     NAMES gurobi gurobi100 gurobi110
                      PATHS ${GUROBI_DIR}
                      PATH_SUFFIXES ${GUROBI_LIB_PATH_SUFFIXES}
                      DOC "GUROBI library.")
